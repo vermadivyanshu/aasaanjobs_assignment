@@ -1,0 +1,19 @@
+{
+  "name": "solution_divyanshu_verma",
+  "version": "1.0.0",
+  "description": "it processes the array of clicks to contain the most expensive click per ip per hour and if there are more than 10 clicks in the input for a IP, it removes it from the array",
+  "main": "index.js",
+  "scripts": {
+    "solution": "node index.js",
+    "test": "mocha 'tests/**.js'"
+  },
+  "author": "Divyanshu Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}
